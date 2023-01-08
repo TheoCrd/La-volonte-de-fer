@@ -1,7 +1,7 @@
 # In Gustave Eiffel's shoes
 <b>Supervised project around the life of Gustave Eiffel.</b> <br/> <br/>
 The supervisor is currently BIRI Venceslas.<br/><br/>
-The team is composed of
+The team is composed of :
 
 * APALOO-KINGSLOVE Keziah
 * COUARD Théo
