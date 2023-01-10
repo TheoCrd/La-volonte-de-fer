@@ -1,4 +1,4 @@
-# In Gustave Eiffel's shoes
+# In Gustave Eiffel's shoes 
 <b>Supervised project around the life of Gustave Eiffel.</b> <br/> <br/>
 The supervisor is currently BIRI Venceslas.<br/><br/>
 The team is composed of :
