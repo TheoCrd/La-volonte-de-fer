@@ -1854,6 +1854,52 @@ Transform:
   m_Father: {fileID: 19450809}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &567847436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567847437}
+  - component: {fileID: 567847438}
+  m_Layer: 0
+  m_Name: target pose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &567847437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567847436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.107101, y: 2.03, z: 9.54}
+  m_LocalScale: {x: 4.13, y: 4.13, z: 4.13}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &567847438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567847436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64582d436c5a4e84d89ba2d25709ddca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueName: target pose
+  tags: []
 --- !u!1 &592861320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,6 +1912,7 @@ GameObject:
   - component: {fileID: 592861323}
   - component: {fileID: 592861322}
   - component: {fileID: 592861321}
+  - component: {fileID: 592861325}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -1952,6 +1999,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592861325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592861320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630c440f208d00844b326ee64fe63c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &639295388
 GameObject:
   m_ObjectHideFlags: 0
@@ -3808,6 +3867,7 @@ GameObject:
   - component: {fileID: 1089484609}
   - component: {fileID: 1089484608}
   - component: {fileID: 1089484607}
+  - component: {fileID: 1089484611}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -3893,6 +3953,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1089484611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089484606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64582d436c5a4e84d89ba2d25709ddca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueName: Sphere
+  tags: []
 --- !u!1 &1090496207
 GameObject:
   m_ObjectHideFlags: 0
@@ -6276,7 +6350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runtimeConfigurationName: VRBuilder.Core.Configuration.DefaultRuntimeConfiguration,
     VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  selectedProcessStreamingAssetsPath: Processes/Desktop/Desktop.json
+  selectedProcessStreamingAssetsPath: Processes/testarea2process/testarea2process.json
 --- !u!4 &1920184150
 Transform:
   m_ObjectHideFlags: 0

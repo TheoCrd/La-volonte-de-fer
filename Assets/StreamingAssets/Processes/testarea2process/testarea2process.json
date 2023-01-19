@@ -12,8 +12,8 @@
           "$id": "4",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": 0.0,
-            "y": -184.8
+            "x": 266.0,
+            "y": -22.1999969
           },
           "StepType": "default"
         },
@@ -41,7 +41,7 @@
                       "Target": {
                         "$id": "11",
                         "$type": "VRBuilder.Core.SceneObjects.SceneObjectReference, VRBuilder.Core",
-                        "UniqueName": "Cube2"
+                        "UniqueName": "Sphere"
                       },
                       "PositionProvider": {
                         "$id": "12",
@@ -136,10 +136,10 @@
                 "$ref": "3"
               },
               "EntryNodePosition": {
-                "x": -169.6,
-                "y": -69.6000061
+                "x": 0.0,
+                "y": 0.0
               },
-              "Guid": "534eda28-9fea-4dd6-a456-8c90c20d09b7"
+              "Guid": "c2b3e497-a40b-4a56-ba0f-d05992cc5140"
             },
             "Data": {
               "$id": "29",
@@ -164,7 +164,7 @@
       "FirstChapter": {
         "$ref": "27"
       },
-      "Name": "Desktop",
+      "Name": "testarea2process",
       "Mode": null,
       "Metadata": null
     }
