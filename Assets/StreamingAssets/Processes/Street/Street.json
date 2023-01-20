@@ -530,7 +530,7 @@
                               "GrabbableProperty": {
                                 "$id": "104",
                                 "$type": "VRBuilder.Core.SceneObjects.ScenePropertyReference`1[[VRBuilder.BasicInteraction.Properties.IGrabbableProperty, VRBuilder.BasicInteraction]], VRBuilder.Core",
-                                "UniqueName": "Cube (3)"
+                                "UniqueName": ""
                               },
                               "IsCompleted": false,
                               "Name": "Grab Object (Ref)",
