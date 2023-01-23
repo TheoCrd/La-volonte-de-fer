@@ -227,7 +227,7 @@
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
             "x": 505.0,
-            "y": -210.0
+            "y": -208.0
           },
           "StepType": "default"
         },
@@ -2413,7 +2413,7 @@
               "TabsGroup": {
                 "$id": "461",
                 "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
-                "selected": 0
+                "selected": 1
               }
             }
           }
@@ -2625,7 +2625,7 @@
               "TabsGroup": {
                 "$id": "500",
                 "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
-                "selected": 0
+                "selected": 1
               }
             }
           }
@@ -2638,7 +2638,7 @@
           "$id": "502",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": -13.0,
+            "x": -11.0,
             "y": -89.0
           },
           "StepType": "default"
@@ -3589,8 +3589,8 @@
           "$id": "680",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": 3801.0,
-            "y": -451.0
+            "x": 3803.0,
+            "y": -457.0
           },
           "StepType": "default"
         },
@@ -5727,7 +5727,7 @@
               "$id": "1081",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": {
-                "$ref": "3"
+                "$ref": "462"
               },
               "EntryNodePosition": {
                 "x": -728.0,
