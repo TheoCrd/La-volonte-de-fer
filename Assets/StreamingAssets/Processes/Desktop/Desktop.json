@@ -2433,7 +2433,7 @@
               "TabsGroup": {
                 "$id": "465",
                 "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib",
-                "selected": 0
+                "selected": 1
               }
             }
           }
@@ -5735,7 +5735,7 @@
               "$id": "1079",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": {
-                "$ref": "1055"
+                "$ref": "762"
               },
               "EntryNodePosition": {
                 "x": -728.0,
