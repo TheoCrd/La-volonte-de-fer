@@ -18198,7 +18198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runtimeConfigurationName: VRBuilder.Core.Configuration.DefaultRuntimeConfiguration,
     VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  selectedProcessStreamingAssetsPath: Processes/Desktop/Desktop.json
+  selectedProcessStreamingAssetsPath: Processes/FinalScene/FinalScene.json
 --- !u!4 &1920184150
 Transform:
   m_ObjectHideFlags: 0
