@@ -12,6 +12,11 @@ public class SceneTransitionManager : MonoBehaviour
         StartCoroutine(GoToSceneRoutine(sceneIndex));
     }
 
+    public void QuitApplication()
+    {
+        StartCoroutine(QuitApplicationRoutine());
+    }
+
     IEnumerator GoToSceneRoutine(int sceneIndex)
     {
         fadeScreen.FadeOut();
@@ -19,5 +24,14 @@ public class SceneTransitionManager : MonoBehaviour
 
         //Launch the new scene
         SceneManager.LoadScene(sceneIndex);
+    }
+
+    IEnumerator QuitApplicationRoutine()
+    {
+        fadeScreen.FadeOut();
+        yield return new WaitForSeconds(fadeScreen.fadeDuration);
+
+        //Quit Application
+        Application.Quit();
     }
 }

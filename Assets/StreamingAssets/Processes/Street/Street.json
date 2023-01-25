@@ -5769,7 +5769,7 @@
                     "Data": {
                       "$id": "1074",
                       "$type": "VRBuilder.Core.Behaviors.DelayBehavior+EntityData, VRBuilder.Core",
-                      "DelayTime": 6.0,
+                      "DelayTime": 7.0,
                       "Metadata": null,
                       "Name": "Delay"
                     }
@@ -7071,7 +7071,7 @@
           "$id": "1315",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": -1452.0,
+            "x": -1451.0,
             "y": -79.0
           },
           "StepType": "default"
