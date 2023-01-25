@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRBuilder.Core;
 using VRBuilder.Core.Behaviors;
+using VRBuilder.Editor;
 using VRBuilder.Editor.UI.StepInspector.Menu;
 
 public class LerpColorMenuItem : MenuItem<IBehavior>
