@@ -7685,7 +7685,7 @@
               "$id": "1430",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": {
-                "$ref": "114"
+                "$ref": "1405"
               },
               "EntryNodePosition": {
                 "x": -1718.0,
