@@ -1,5 +1,5 @@
 # La volonté de fer
-<b>Supervised project around the life of Gustave Eiffel.</b> <br/> <br/>
+<b>Mentored project around the life of Gustave Eiffel.</b> <br/> <br/>
 The supervisor is currently BIRI Venceslas.<br/><br/>
 The team is composed of :
 
